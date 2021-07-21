@@ -1,0 +1,2 @@
+Introduction:
+This project is based upon a basic calculator.The calculator UI is completely designed as Neumorphic for user's attraction. The app also consist the theme changer, where user willingly change their theme as per the choice. As of now there is only two themes are available, One is the dark mode and other one is the light mode. For making of this project only vanilla Javascript was used. The project is not yet deployed but in future we soon will do that. Where user can use this app freely.
