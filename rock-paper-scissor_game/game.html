@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <script src="game2.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="parent-1 active">
+            <label class="player-name" id="name-0">Player 1</label>
+            <input type="text" id="player-1-input" placeholder="Enter your choice"/>
+            <button class="submittedAnswer">Submit Choice</button>
+            <label style="margin-top: 40px;">Your Choice:</label>
+            <div class="bindableAns submit"></div>
+            <div class="current-score-1">0</div>
+        </div>
+        <!-- <button type="button" class="nextRound">Next round</button> -->
+        <span class="lnr lnr-sync restart" title="Restart"></span>
+        <div class="parent-2">
+            <label class="player-name" id="name-1" >Player 2</label> 
+            <input type="text" id="secondInput" placeholder="Enter your choice">
+            <button class="submitChoice">Submit Choice</button>
+            <label style="margin-top: 40px;">Your Choice:</label>
+            <div class="selectedAnswer submit"></div>
+            <div class="current-score-2">0</div>
+        </div>
+    </div>
+</body>
+</html>

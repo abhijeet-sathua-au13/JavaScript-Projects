@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #403c53;
+    font-family: 'Poppins',sans-serif;
+}
+.main{
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 600px;
+    background-color: darkgray;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.parent-1{
+    float: left;
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 100%;
+    background-color: darkgray;
+    flex-direction: column;
+    align-items: center;
+}
+#player-1-input{
+    margin-top: 30px;
+    height: 50px;
+    padding: 8px;
+    width: 250px;
+    align-content: flex-start;    
+}
+#player-1-input:focus{
+    border: 1px solid lightblue;
+}
+.parent-2{
+    float: right;
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 100%;
+    background-color: darkgray;
+    flex-direction: column;
+    align-items: center;
+}
+.active {background-color: lightgray; }
+.active .player-name { font-weight: 500; }
+.player-name{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.active .player-name::after{
+    content: '\2022';
+    font-size: 47px;
+    position: absolute;
+    color: red;
+
+}
+#secondInput{
+    margin-top: 30px;
+    height: 50px;
+    width: 250px;  
+    padding: 8px;  
+}
+#secondInput:focus{
+    border: 1px solid lightblue;
+}
+.current-score-1{
+    margin-top: 60%;
+    width: 120px;
+    height: 200px;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: white;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 10px grey;
+}
+.current-score-2{
+    margin-top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 30px;
+    font-size: 25px;   
+    box-shadow: 0px 8px 10px grey;
+}
+.winner{
+    width: 40%;
+    height: 50x;
+    font-size: 35px;
+}
+.winPlayer{
+    background-color: #E6E9FE;
+}
+.win{
+    color: red;
+}
+.submit{
+    position: absolute;
+    display: block;
+    top: 290px;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    background-color: transparent;
+}
+.submittedAnswer{
+    margin-top: 25px;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 140px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+.submitChoice{
+    margin-top: 25px;
+    background-color: dodgerblue;
+    width: 100px;
+    height: 140px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.nextRound {
+    position: relative;
+    font-size: 40px;
+    margin-top: 60%;
+    z-index: 200;
+    margin-left: 60%;
+}
+.restart{
+    position: absolute;
+    font-size: 45px;
+    top: 70%;
+    z-index: 2;
+    left: 47.3%;
+    color: red;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.restart:hover{
+    transition: 0.3s ease;
+    margin-top: -2px;
+}
